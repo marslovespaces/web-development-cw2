@@ -1,0 +1,116 @@
+body {
+  background-image: url('https://luca.restaurant/wp-content/uploads/main_bg-2000x1509.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  font-family: Filosofia,Georgia, serif;
+}
+
+/*.site-header {
+  position: fixed;
+  z-index: 19;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.625rem;
+} */
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 23px;
+  position: relative;
+}
+
+.topnav a {
+  border-bottom: 2px whitesmoke;
+}
+
+.topnav a {
+  background-color: #FFFFFF;
+  color: white;
+}
+
+.Luca img{
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+.Luca
+{
+  border: 1px white;
+  background: transparent;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+}
+
+
+.nav-item {
+  text-decoration: none;
+  color: white;
+  border-botton: 10px grey;
+  font-size: 23px;
+  padding-left: 10px;
+}
+
+.logo img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  height: auto;
+}
+
+#bottom-left-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+#bottom-right-footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color:white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+}

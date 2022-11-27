@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  }
+  body {
+    background-color: #ecf0a3;
+      font-family: Filosofia, Georgia, serif;
+  }
+
+.contact-box
+  {
+    width: auto;
+    background-color: #ecf0a3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+  }
+
+  form {
+    margin: 35px;
+  }
+
+.form {
+  align-items: center;
+  margin-left: 22%;
+  margin-right: 50%;
+  font: black;
+}
+
+input[type="text"]
+{
+    background-color: #ecf0a3;
+    color: #000000;
+}
+
+  .input-field {
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius:14px
+    outline: black;
+    border-sizing: border-box;
+    font-family: Filosofia, Georgia, serif;
+    background-color: #ecf0a3;
+  }
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 40px;
+  }
+
+.container {
+    align-items: center;
+    margin-left: 36%;
+    margin-right: 50%;
+    margin-top: 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.button {
+  width: 150px;
+    border: 1px solid black;
+    background: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: Filosofia, Georgia, serif;
+    border-radius: 12px;
+
+  }
+
+.button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+
+
+.footer_logo {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: Filosofia, Georgia, serif;
+}
+
+#footer_logo a{
+  color: white;
+}
+
+
+.footer_links {
+  text-align: center;
+  color: whitesmoke;
+  font-family: Filosofia, Georgia, serif;
+
+}
+
+a:link {
+  text-decoration: none;
+  color: #808080;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #808080;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #A9A9A9;
+}
